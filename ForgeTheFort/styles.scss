@@ -1,0 +1,160 @@
+$font-styles: 'Quicksand',
+sans-serif;
+$color-light: #f3f4ed;
+$color-dark: #536162;
+$color-darker: #424642;
+$color-orange: #c06014;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fort-image {
+  padding: 0 !important;
+
+  // margin-bottom: 25px;
+}
+
+.mainSec {
+
+  margin-bottom: 50px;
+
+  .infoSec {
+    margin-left: 1vw;
+    color: $color-light;
+    background-color: $color-darker;
+    padding: 10px;
+    border-bottom: white solid;
+
+    img {
+      margin-bottom: 5px;
+    }
+
+    h1 {
+      border-bottom: 0;
+      background-color: $color-orange;
+    }
+
+    &:hover {
+
+      margin-left: 1vw;
+      color: $color-light;
+      background-color: darken($color: $color-darker, $amount: 4);
+      padding: 10px;
+      border-bottom: white solid;
+
+      img {
+        margin-bottom: 5px;
+      }
+
+      h1 {
+        border-bottom: 0;
+        background-color: $color-orange;
+      }
+    }
+  }
+
+
+}
+
+.active-link {
+  background-color: $color-orange;
+  border-radius: 10px;
+
+  a {
+    color: white !important;
+  }
+
+  &:hover {
+    background-color: lighten($color: $color-orange, $amount: 4) !important;
+  }
+}
+
+ul {
+  li {
+    margin-right: 20px;
+    font-family: $font-styles;
+    text-align: center;
+  }
+
+  a {
+    color: $color-darker !important;
+  }
+}
+
+.unactive:hover {
+  color: $color-orange !important;
+}
+
+h1 {
+  font-family: $font-styles;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-bottom: solid $color-orange;
+}
+
+p {
+  font-family: $font-styles;
+  font-weight: lighter;
+}
+
+header {
+  padding-top: 10px;
+  background-color: $color-light;
+}
+
+body {
+  background-color: $color-light;
+  color: $color-dark;
+
+}
+
+h2 {
+  font-family: $font-styles;
+  letter-spacing: 2;
+}
+
+.main-about {
+  margin-top: 150px;
+  color: $color-darker;
+
+  p {
+    color: darken($color:$color-darker, $amount: 5);
+  }
+}
+
+#portrait {
+  max-width: 30vh;
+  margin-bottom: 10px;
+}
+
+ul .disabled {
+  color: lighten($color: $color-dark, $amount: 5) !important;
+}
+
+.forms {
+  margin-top: 100px;
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    margin-top: 20px;
+    background-color: $color-dark;
+    color: white;
+
+    &:hover {
+      background-color: darken($color: $color-orange, $amount: 3);
+    }
+  }
+}
+
+.goals-content {
+  h3 {
+    color: white;
+    background-color: $color-orange;
+    padding: 5px;
+  }
+}
