@@ -16,47 +16,7 @@ $color-orange: #c06014;
   // margin-bottom: 25px;
 }
 
-.mainSec {
 
-  margin-bottom: 50px;
-
-  .infoSec {
-    margin-left: 1vw;
-    color: $color-light;
-    background-color: $color-darker;
-    padding: 10px;
-    border-bottom: white solid;
-
-    img {
-      margin-bottom: 5px;
-    }
-
-    h1 {
-      border-bottom: 0;
-      background-color: $color-orange;
-    }
-
-    &:hover {
-
-      margin-left: 1vw;
-      color: $color-light;
-      background-color: darken($color: $color-darker, $amount: 4);
-      padding: 10px;
-      border-bottom: white solid;
-
-      img {
-        margin-bottom: 5px;
-      }
-
-      h1 {
-        border-bottom: 0;
-        background-color: $color-orange;
-      }
-    }
-  }
-
-
-}
 
 .active-link {
   background-color: $color-orange;
@@ -158,3 +118,117 @@ ul .disabled {
     padding: 5px;
   }
 }
+
+
+
+// #midwestmap {
+//   fill: red;
+// }
+
+// #OH {
+  
+//   &:hover {
+//     fill: red;
+//   }
+// }
+
+#OH, #IN, #IL, #MI, #MN, #ND, #SD, #MO, #KS, #IA, #NE, #WI  {
+  fill: #cccccc;
+}
+
+
+#OH {
+
+  &:hover {
+    fill: #432771;
+  }
+}
+
+
+#IN {
+
+  &:hover {
+    fill: #f7bc17;
+  }
+}
+
+
+#IL {
+
+  &:hover {
+    fill: #53b35a;
+  }
+}
+
+
+#MO {
+
+  &:hover {
+    fill: #1aa9a9;
+  }
+}
+
+
+#MI {
+
+  &:hover {
+    fill: #625d59;
+  }
+}
+
+
+#KS {
+
+  &:hover {
+    fill: #e9565e;
+  }
+}
+
+
+#NE {
+
+  &:hover {
+    fill: #a3ce65;
+  }
+}
+
+
+#IA {
+
+  &:hover {
+    fill: #8f7d71;
+  }
+}
+
+
+#SD {
+
+  &:hover {
+    fill: #f7bc17;
+  }
+}
+
+
+#WI {
+
+  &:hover {
+    fill: #e3595e;
+  }
+}
+
+
+#ND {
+
+  &:hover {
+    fill: #246cb6;
+  }
+}
+
+
+#MN {
+
+  &:hover {
+    fill: #7f4f99;
+  }
+}
+
