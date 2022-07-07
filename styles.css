@@ -104,7 +104,7 @@ ul .disabled {
 }
 
 #OH, #IN, #IL, #MI, #MN, #ND, #SD, #MO, #KS, #IA, #NE, #WI {
-  fill: #cccccc;
+  fill: #aaaaaa;
 }
 
 #OH:hover {
@@ -153,5 +153,15 @@ ul .disabled {
 
 #MN:hover {
   fill: #7f4f99;
+}
+
+.svgArticle {
+  margin-top: 25vh;
+  margin-left: 25vh;
+}
+
+svg {
+  -webkit-transform: scale(1.75);
+          transform: scale(1.75);
 }
 /*# sourceMappingURL=styles.css.map */

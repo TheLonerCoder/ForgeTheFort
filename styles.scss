@@ -133,7 +133,8 @@ ul .disabled {
 // }
 
 #OH, #IN, #IL, #MI, #MN, #ND, #SD, #MO, #KS, #IA, #NE, #WI  {
-  fill: #cccccc;
+  // fill: #cccccc;
+  fill: #aaaaaa;
 }
 
 
@@ -232,3 +233,14 @@ ul .disabled {
   }
 }
 
+
+.svgArticle {
+  margin-top: 25vh;
+  margin-left: 25vh;
+}
+
+svg {
+  transform: scale(1.75);
+  // height: 50vh;
+  // width: 50vh;
+}
