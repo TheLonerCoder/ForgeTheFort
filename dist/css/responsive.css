@@ -1,0 +1,14 @@
+@media (max-width: 1176px) {
+  .svgArticle {
+    margin-top: 20vh;
+    margin-left: 20vh;
+  }
+  svg {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  #mapInfo {
+    margin-top: 100px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

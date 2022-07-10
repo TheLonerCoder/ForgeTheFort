@@ -164,4 +164,10 @@ svg {
   -webkit-transform: scale(1.75);
           transform: scale(1.75);
 }
+
+#mapInfo {
+  margin-top: 150px;
+  margin-left: 20px;
+  width: 90%;
+}
 /*# sourceMappingURL=styles.css.map */

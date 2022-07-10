@@ -1,0 +1,16 @@
+@media (max-width: 1176px) {
+    .svgArticle {
+        margin-top: 20vh;
+        margin-left: 20vh;
+      }
+      
+      svg {
+        transform: scale(1.5);
+        // height: 50vh;
+        // width: 50vh;
+      }
+
+      #mapInfo {
+        margin-top: 100px;
+      }
+}
