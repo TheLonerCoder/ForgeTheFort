@@ -250,8 +250,13 @@ svg {
 #mapInfo {
   margin-top: 150px;
   margin-left: 20px;
-  width: 90%;
+  // width: 100vh;
   // display: flex;
   // justify-content: center;
+
+
+  button {
+    color: $color-darker;
+  }
 
 }

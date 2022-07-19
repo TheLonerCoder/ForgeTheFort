@@ -168,6 +168,9 @@ svg {
 #mapInfo {
   margin-top: 150px;
   margin-left: 20px;
-  width: 90%;
+}
+
+#mapInfo button {
+  color: #424642;
 }
 /*# sourceMappingURL=styles.css.map */
