@@ -173,4 +173,13 @@ svg {
 #mapInfo button {
   color: #424642;
 }
+
+.infoTabs img {
+  float: left;
+  margin: 5px 10px;
+}
+
+.infoTabs li {
+  list-style: none;
+}
 /*# sourceMappingURL=styles.css.map */

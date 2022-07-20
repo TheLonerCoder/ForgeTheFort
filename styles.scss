@@ -259,4 +259,19 @@ svg {
     color: $color-darker;
   }
 
+  
+}
+
+
+
+.infoTabs {
+  img {
+    // display: inline;
+    float: left;
+    margin: 5px 10px;
+  }
+  
+  li {
+    list-style: none;
+  }
 }
