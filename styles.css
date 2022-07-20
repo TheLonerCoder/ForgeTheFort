@@ -182,4 +182,8 @@ svg {
 .infoTabs li {
   list-style: none;
 }
+
+.carousel-item img {
+  width: 50px;
+}
 /*# sourceMappingURL=styles.css.map */
