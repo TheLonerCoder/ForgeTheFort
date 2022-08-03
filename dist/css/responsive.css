@@ -11,4 +11,109 @@
     margin-top: 100px;
   }
 }
+
+@media (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
+  .svgArticle {
+    margin-top: 20vh;
+    margin-left: 10vh;
+  }
+  svg {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  #mapInfo {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 514px) {
+  body {
+    overflow-x: hidden;
+  }
+  .svgArticle {
+    margin-top: 20vh;
+    margin-left: 5vh;
+  }
+  svg {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  #mapInfo {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+  }
+  .svgArticle {
+    margin-top: 10vh;
+    margin-left: 1vh;
+  }
+  svg {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  #mapInfo {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+  .svgArticle {
+    margin-top: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  svg {
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+  #mapInfo {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    overflow-x: hidden;
+  }
+  .svgArticle {
+    margin-top: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  svg {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+    position: relative;
+    left: 5px;
+  }
+  #mapInfo {
+    margin-top: 20px;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */
